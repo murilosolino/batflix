@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Minha página</title>
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+             }
+        #filme {
+            background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("img/capa.jpg");
+            font-size: 16px;
+            height: 400px;
+            background-size: cover;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            }    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">BATFLIX</h2>
+            <nav>
+                <a href="#filme">Início</a>
+                <a href="#carrosel-filmes">Séries</a>
+                <a href="#carrosel-filmes">Filmes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id ="filme">
+            <div class="container">
+
+                <h3 class="titulo">THE BATMAN</h3>
+                <p class="descricao">Após dois anos espreitando as ruas como Batman e aterrorizando o mundo do crime, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City.</p>
+                <div class="botoes">
+                    <a class="botao" href="https://www.ingresso.com/noticias/novo-trailer-oficial-dublado-the-batman-robert-pattinson?city=sao-paulo&partnership=home" target="_blank">
+                        <i class="fa-solid fa-play"></i>
+                    ASSISTIR AGORA
+                    </a>
+                    <a class="botao" href="https://www.themoviedb.org/movie/414906-the-batman?language=pt-BR" target="_blank">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </main>
+
+        <div id="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-film" src="img/min 6.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-film" src="img/min1.jpg" alt="" srcset="">
+                    </div><div class="item">
+                        <img class="box-film" src="img/min10.jpg" alt="" srcset="">
+                    </div><div class="item">
+                        <img class="box-film" src="img/min5.jpg" alt="" srcset="">
+                    </div><div class="item">
+                        <img class="box-film" src="img/min4.jpg" alt="" srcset="">
+                    </div><div class="item">
+                        <img class="box-film" src="img/min2.jpg" alt="" srcset="">
+                    </div><div class="item">
+                        <img class="box-film" src="img/min7.jpg" alt="" srcset="">
+                    </div><div class="item">
+                        <img class="box-film" src="img/min8.jpg" alt="" srcset="">
+                    </div><div class="item">
+                        <img class="box-film" src="img/min9.jpg" alt="" srcset="">
+                    </div><div class="item">
+                        <img class="box-film" src="img/min3.jpg" alt="" srcset="">
+                    </div>
+
+            </div>
+        </div>
+
+    <script src="https://kit.fontawesome.com/754758f3e5.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+</body>
+</html>
